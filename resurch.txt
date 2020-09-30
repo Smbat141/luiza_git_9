@@ -1,0 +1,10 @@
+1. master branchը նախատեսված է ծրագիր հիմանակն վերսիայի համար,
+որը օգտատերերին հասանելի է, որից ճյուղավորված develop  branchի վրա կատարվում են փոփոխություններ,սովորաբար հասանելի չի լինում օգտատերերին։
+
+2. feature branchում
+
+1.Git Feature Branch Workflow
+լինում են երեք branchեր, master, dvelop, feature, ամեն խնդիր լուծվում է featureում, հետո merge ա արվում develop, ու միքանի merge արված developում ստուգվում են, ու developը merge ենք անում մաստերին releaseի ժամանակ
+
+2. git flow feature publish
+հրամանը հնարավորություն է տալիս որ մեր branchը հասանելի լինի մյուս developer ներին էլ
